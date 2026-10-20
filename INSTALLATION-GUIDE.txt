@@ -1,0 +1,75 @@
+PC DOAD 1.0.0
+Installation Guide
+==================
+
+Windows x64 Release
+
+1. Requirements
+----------------
+This installer is for Windows x64 systems.
+
+2. Installation
+----------------
+1. Run PC-DOAD-1.0.0-win-x64-Setup.exe.
+2. Follow the installation wizard.
+3. PC DOAD is installed under:
+
+C:\Program Files\PCDoctor
+
+4. A desktop shortcut can optionally be created.
+5. PC DOAD can be launched at the end of installation.
+
+3. Launching PCDoctor
+---------------------
+After installation, launch PC DOAD from:
+- The Start Menu
+- The desktop shortcut, if created
+- The installed PCDoctor.exe
+
+4. User Data
+------------
+PCDoctor user data is stored under:
+
+%LOCALAPPDATA%\PCDoctor
+
+The installer does not intentionally remove this directory during
+uninstallation.
+
+5. Uninstallation
+-----------------
+PC DOAD can be removed using the normal Windows uninstall process.
+
+The Windows installer is designed to preserve the PCDoctor user-data directory
+during uninstall.
+
+6. Verification Performed
+--------------------------
+The current branding release has been verified for:
+- Self-contained Windows x64 publishing
+- Installer branding and preserved executable/install paths
+- Existing user-data path preservation
+- AppId preservation for upgrade/uninstall identity
+
+
+
+7. Checksum
+-----------
+SHA-256:
+
+46ED67BC642FD38700A333D37487DAC513694A2A6812C495D937D9D3DF02A775
+
+File:
+PC-DOAD-1.0.0-win-x64-Setup.exe
+
+8. Platform Status
+------------------
+Windows x64: Installer build and application launch verified. Uninstall and fresh reinstall were tested. The app launched successfully, and the user-data directory remained present. Exact record-by-record data integrity was not verified..
+
+Linux and macOS production packaging are not included in this
+Windows release package.
+
+Code Signing Notice
+-------------------
+This installer is unsigned. Windows SmartScreen or other security
+controls may display a warning. Verify the published SHA-256 checksum
+before running the installer.
